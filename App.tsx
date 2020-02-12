@@ -1,12 +1,16 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import SecondComponent from './components/SecondComponent'
+import Red from './components/Red';
+import Green from './components/Green';
+import Blue from './components/Blue';
 
-export default function App() {
+export default function App(): JSX.Element {
   return (
     <View style={styles.container}>
       <Text>Hello World Buddy!</Text>
-      <SecondComponent />
+      <Red />
+      <Green />
+      <Blue />
     </View>
   );
 }
